@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    {% comment %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/home.css" />
+    {% endcomment %}
+    <title>Home Page</title>
+  </head>
+  <body>
+    {% include 'header.html' %}
+    <h1>Welcome to Our Website</h1>
+    <p>This is the home page of our website.</p>
+    <p>You can navigate to other pages using the links below:</p>
+    {% comment %}
+    <ul>
+      <li><a href="/login/">Login</a></li>
+      <li><a href="/signup/"> Signup</a></li>
+    </ul>
+    {% endcomment %} {% include 'footer.html' %}
+  </body>
+</html>
