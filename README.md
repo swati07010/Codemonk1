@@ -33,7 +33,7 @@ Search is a web application built using Python and Django framework. It provides
 
 1. Navigate to the signup page (`/signup`) to create a new account.
 2. Once signed up, you can proceed to the login page (`/login`) to log in to your account.
-3. After logging in, you can utilize the search functionality provided on the home page (`/home`) to search for specific terms within paragraphs.
+3. After logging in/or signup, you can utilize the search functionality provided on the home page (`/search`) to search for specific terms within paragraphs.
 4. Explore additional pages within the app for other functionalities.
 
 ## App Structure
